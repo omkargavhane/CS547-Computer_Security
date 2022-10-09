@@ -1,0 +1,47 @@
+Name:OMKAR GAVHANE
+Roll No:2111MC08
+Course:MTech(M&C)
+
+----------------------------------------------------------------------------------------
+<kernel.py> is actual virus code 
+
+what i had done there is that used hash value of filename as start and end of virus code
+which allows us to check whether the file is already infected or not then to infect 
+files present in directories i used a os.walk() method which gives the files present 
+in subdirectoories also then read the file and calculate the hash value of filename 
+if it is present in file then file is already infected else infect the file as
+1]<hash of filename>
+2]<key for encryption/decryption>
+3]<virus code>//Encrypted with the above key
+4]<hash of filename>
+5]<decryption mechnaism>
+most importantly as given in assignment we need to write a polymorphic code 
+that is each time when replicate itself into some other file then the code must be 
+encrypted and these encryption string is also diffrent for each time these we achieve with
+help of diffrent key each time and what will do we will add these key in file itself
+such that it can be easy to decrypt it again while it is doing replication
+
+so these is how i had written the code in python for the virus
+------------------------------------------------------------------------------------------------
+now for antivirus file name is <antivirus.py> and it uses one other file called <status.csv>
+two techniques i had used signature based  and heuristic based
+
+<Signature based>
+as it is obvious that decryption routine is in plain text in files therefore
+it can act as good signature 
+like i used signatures as <hash,encrypt,decrypt,key,exec,compress,decompress>
+also after decryption it is common that we called the exec system call therefore
+it is also included in signature also sometimes compression and decompression is also there
+therefore they are also in signature list
+that's how the signature are made
+now we go throug \h each file and check whether any sugnature is present in file 
+if yes then we will print it as threat file
+
+<heuristic>
+in heuristics based mechanism i used file meta info like file size 
+it last modifiesd time and store that value in csv file 
+while scannignif we found that file meta info has changed like sie of last 
+modified time then announce it as threat file
+----------------------------------------------------------------------------------------
+There are some other files also i had zipped but those are my attempts while writing these
+code 
