@@ -1,0 +1,5 @@
+1. 
+(a) Write an harmless worm in C-language (adopting the procedure as discussed in class.), (called XXXX_MSE_WORM.c, where, XXXX is your Roll number) which tries to break the random hosts using rsh login in from an embedded set of usernames and passwords. The embedded set would have 5 more many number of username-Password as your roll number (If your roll number 1211CS 03 then the set should have 08 number of usernames and passwords)
+(b) Extend your Worm (XXXX_MSE_WORM_EXT.c) to evade signature based detection mechanism, no two worm codes propagated should have the same code.
+(c) Write a simple mechanism (XXXX_MSE_WRM_DET.c) which can detect your worm (XXXX_MSE_WORM.c).
+Please submit the MSE assignment in 24-hours time as a zip file containing (i) codes (ii) document explaining your code.Maintain Academic Integrity. Copying and helping to copy both are punishable and evaluated to 0.

